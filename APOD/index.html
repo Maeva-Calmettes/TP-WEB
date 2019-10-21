@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>APOD</title>
+  </head>
+  <body>
+
+  
+
+    <div>
+     
+    <form id="formulaire"><!-- formulaire pour sélectionner la date -->
+      <input type="date" id="form-date"> 
+        <button>GO !</button>
+    </form><!-- fin du formulaire -->
+  </div>
+
+  <h2> The Astronomical Picture of the day</h2>
+
+  <iframe id="video-nasa" width="960" height="570" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <figure>
+        <figcaption>
+            <h1 id="titre_img"> </h1>
+            <div> 
+              <p id="sous-titre"> <span id="auteur"></span> - <span id="date_nom"></span></p> 
+              <p id="description"> </p>
+            </div>
+          </figcaption> 
+      <img id="image_apod">
+    </figure>
+    
+    <script src="jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+
+  </body>
+</html>

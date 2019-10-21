@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>MARS ROVER</title>
+  </head>
+  <body>
+
+    <section id="champs">
+      <h2> Mars Rover </h2>
+
+      <form id="formulaire">
+        Sol : <input id="sol" type="number" min="1" max="1500" placeholder=" nombre (ex: 1000, 250...)">
+
+          <br/>
+        Rover : <select id="rover">
+            <option value="curiosity">Curiosity</option>
+            <option value="opportunity">Opportunity</option>
+            <option value="spirit">Spirit</option>
+          </select>
+
+          <br/>
+          Camera : <select id="camera">
+            <option value="fhaz">FHAZ</option>
+            <option value="navcam">NAVCAM</option>
+            <option value="rhaz">RHAZ</option>
+            <option id="mast" value="mast">MAST</option>
+            <option id="mahli" value="mahli">MAHLI</option>
+            <option id="mardi" value="mardi">MARDI</option>
+            <option id="chemcam" value="chemcam">CHEMCAM</option>
+            
+            <option id="pancam" value="pancam">PANCAM</option>
+            <option id="minites" value="minites">MINITES</option>
+            
+          </select>
+
+          <br/>
+          <button>GO !</button>
+      </form>
+       
+    </section>
+    
+    <section id="infos">
+      <h1 id="nom"></h1>
+    </section>
+
+    <section  id="bloc_images">
+      
+      
+
+    </section>
+    
+
+ 
+
+  </div>
+
+  
+    
+    <script src="jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+
+  </body>
+</html>

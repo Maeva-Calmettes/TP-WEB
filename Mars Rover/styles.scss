@@ -1,0 +1,91 @@
+
+body {
+
+
+    #champs {
+    position: fixed;
+    margin-top: -5vh;
+    margin-left: 1vw;
+
+        h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.7em;
+        text-transform: uppercase;
+        }
+
+        #formulaire {
+        background-color: black;
+        margin-top: -4vh;
+        padding: 2.5em;
+        width: 8vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2em;
+        color: white;
+       
+
+            input {
+                background-color: white;
+                color: black;
+                width: 8vw;
+                height: 3vh;
+                border: none;
+                margin-bottom: 3vh;
+            }
+
+
+            select {
+                background-color: white;
+                color: black;
+                width: 8vw;
+                height: 3vh;
+                border: none;
+                margin-bottom: 3vh;
+            }
+
+            button {
+                background-color: white;
+                color: black;
+                width: 8vw;
+                height: 3vh;
+                border: none;
+            }
+        }
+    }
+
+
+
+
+    #bloc_images {
+    width: 155vh;
+    margin-left: 18vw;
+    margin-top: 5vh;
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+        img {
+            -webkit-flex: 0 0 75vh;
+            flex: 0 0 75vh;
+            width: 75vh;
+            height: 75vh;
+            padding-bottom: 2vh;
+            padding-right: 2vh;
+        }
+
+        p {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5em;
+            margin: auto;
+            margin-top: 40vh;
+        }
+
+    }
+
+
+
+    #infos {
+    position: fixed;
+    }
+}
