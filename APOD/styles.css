@@ -19,7 +19,7 @@ div {
 
 div form {
   margin-left: 1vw;
-  margin-top: -3vh;
+  margin-top: 2vh;
 }
 
 div form input {
@@ -37,12 +37,15 @@ div form button {
 iframe {
   margin-top: 6vh;
   height: 90vh;
+  position: fixed;
   margin-left: 5vw;
   display: none;
 }
 
 figure {
+  pointer-events: none;
   margin-left: 5vw;
+  position: fixed;
 }
 
 figure img {
@@ -53,9 +56,9 @@ figure img {
 figure figcaption h1 {
   position: fixed;
   margin-top: 1vh;
-  margin-left: 60vw;
-  font-size: 5.5em;
-  width: 30vw;
+  margin-left: 57vw;
+  font-size: 5.2em;
+  width: 33vw;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #222222;
   background-color: white;

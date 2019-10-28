@@ -22,7 +22,8 @@ div {
    
     form {
         margin-left: 1vw;
-        margin-top: -3vh;
+        margin-top: 2vh;
+
         input {
             background-color: black;
             color: white;
@@ -37,15 +38,18 @@ div {
 }
 
 iframe {
+   
     margin-top: 6vh;
     height: 90vh;
+    position: fixed;
     margin-left: 5vw;
     display: none;
 }
 
 figure {
+    pointer-events: none;
     margin-left: 5vw;
-    
+    position: fixed;
 
     img {
         margin-top: 6vh;
@@ -59,9 +63,9 @@ figure {
         h1 {
             position: fixed;
             margin-top: 1vh;
-            margin-left: 60vw;
-            font-size: 5.5em;
-            width: 30vw;
+            margin-left: 57vw;
+            font-size: 5.2em;
+            width: 33vw;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             color: rgb(34, 34, 34);     
             background-color: rgb(255, 255, 255);
